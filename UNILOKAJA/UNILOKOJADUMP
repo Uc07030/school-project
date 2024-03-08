@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>2022/2023 Admissions Exercise - FULOKOJA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <!-- Admission Notice -->
+        <div class="mb-4">
+            <h4>2022/2023 ADMISSIONS EXERCISE – IMPORTANT NOTICE TO ALL APPLICANTS</h4>
+            <p>The University has commenced admissions upload on the 2022/2023 CAPS platform.</p>
+            <p>All 2022/2023 candidates who chose Federal University Lokoja as their first choice are advised to visit the nearest JAMB Office or JAMB-Accredited CBT Centre to access their e-Facility and check their admission status.</p>
+        </div>
+
+        <!-- Part A - Admission Processing -->
+        <div class="mb-4">
+            <h5>PART A: Admission Processing</h5>
+            <p>Admission processing shall be in two (2) categories:</p>
+            <ol>
+                <li>Candidates admitted into the Programme of their choice should proceed to accept or reject the admission offered.</li>
+                <li>Candidates transferred to programmes other than their choice are expected to accept or reject the transfer offered by the institution. If a candidate accepts the offer of transfer, he or she should subsequently accept the admission offered in the new Programme.</li>
+            </ol>
+            <p>Kindly note:</p>
+            <ul>
+                <li>Admission upload shall be in batches; visit your JAMB e-facility regularly to check your admission status.</li>
+                <li>Once you receive an offer, respond within 48 hours, otherwise, you will forfeit the offer.</li>
+                <li>Ensure that your O’level result(s) are uploaded on your JAMB e-facility to avoid automatic disqualification.</li>
+                <li>Uploading of O’level result(s) and acceptance of transfer/admission offer(s) are best carried out at a JAMB-Accredited CBT Centre or JAMB Office.</li>
+            </ul>
+        </div>
+
+        <!-- Part B - Guidelines for Registration -->
+        <div class="mb-4">
+            <h5>PART B: GUIDELINES FOR THE 2022/2023 FRESH STUDENTS ONLINE REGISTRATION (UTME & DE)</h5>
+            <p>The University portal is opened for the 2022/2023 ONLINE Registration Exercise.</p>
+            <p>Eligibility conditions for clearance:</p>
+            <ol>
+                <li>Your admission must have been approved on the Central Admission Processing System (CAPS) of JAMB.</li>
+                <li>You must have accepted the offer of admission as approved by JAMB.</li>
+            </ol>
+            <p>Read the guidelines below before commencing the process:</p>
+
+            <!-- Guidelines for Registration Exercise -->
+            <h6>GUIDELINES FOR THE REGISTRATION EXERCISE</h6>
+            <ol>
+                <li><strong>STEP 1: ACCEPTANCE OF OFFER</strong>
+                    <ol type="a">
+                        <li>Visit the University website (www.fulokoja.edu.ng) and click on Admissions – Undergraduate – Post-UTME. Login with your JAMB Registration Number to confirm your admission status.</li>
+                        <li>Once successful, click on Pay Now to process the payment for acceptance charge of N20,000.00 using REMITA services (card or bank payment).</li>
+                        <li>Return to the University website and click on Admissions – Undergraduate – Post-UTME Portal to confirm your payment.</li>
+                        <li>You will be provided a school email address, which would be the official means of communication.</li>
+                        <li>Print your Admission Letter and Letter of Undertaking.</li>
+                    </ol>
+                </li>
+
+                <!-- Other Steps -->
+                <li><strong>STEP 2: O’LEVEL RESULT VERIFICATION</strong>
+                    <ol type="a">
+                        <li>Return to the University website and click on Admissions – Undergraduate – Post-UTME Portal – Submit O’level to supply your O’level examination and scratch card details. Note that failure to upload the correct O’level examination details and a valid examination scratch card will lead to automatic disqualification of admission. If you had previously submitted your O’level Scratch Card details, kindly proceed to No.2 below.</li>
+                        <li>Check your university email or the Post-UTME Portal for confirmation to proceed with your registration. Once successful, proceed to step 3.</li>
+                    </ol>
+                </li>
+
+                <li><strong>STEP 3: PAYMENT OF SCHOOL CHARGES</strong>
+                    <ol type="a">
+                        <li>Visit the University website and click on Student – Undergraduate – Student Portal. Login with your JAMB Registration Number.</li>
+                        <li>Click on Pay Now to process the payment for School Charges using REMITA services (card or bank payment).</li>
+                        <li>Return to the University website and click on Student – Undergraduate – Student Portal to confirm your payment.</li>
+                        <li>After confirmation of payment, print out your School Charges receipt.</li>
+                        <li>Proceed to print out the completed online STUDENT BIO-DATA FORM (Form 01).</li>
+                    </ol>
+                </li>
+
+                <!-- Future Steps -->
+                <li><strong>NOTE:</strong> You are advised to keep all printed documents as you

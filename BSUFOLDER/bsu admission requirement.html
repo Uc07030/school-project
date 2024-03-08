@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSU Undergraduate Programs and Admission Requirements</title>
+  <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<style>
+  .department-dropdown {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="container mt-5">
+<h2>Benue State University (BSU) - Undergraduate Programs and Admission Requirements</h2>
+
+<h3>Key Faculties and Courses:</h3>
+<h3 onclick="showDepartment(0)">Arts:</h3>
+<ul class="department-dropdown">
+    <li>English Language</li>
+    <li>French</li>
+    <li>History</li>
+    <li>Linguistics</li>
+    <li>Philosophy</li>
+    <li>Religious and Cultural Studies</li>
+    <li>Theatre Arts</li>
+</ul>
+<h3  onclick="showDepartment(1)">Education:</h3>
+<ul  class="department-dropdown">
+    <li>Business Education</li>
+    <li>Education and Biology</li>
+    <li>Education and Chemistry</li>
+    <li>Education and Computer Science</li>
+    <li>Education and English Language</li>
+    <li>Education and Integrated Science</li>
+    <li>Education and Mathematics</li>
+    <li>Education and Physics</li>
+    <li>Education and Religious Studies</li>
+    <li>Education and Social Studies</li>
+    <li>Educational Management</li>
+    <li>Educational Technology</li>
+    <li>Educational Technology/Introductory Technology</li>
+    <li>Guidance and Counselling</li>
+    <li>Home Economics and Education</li>
+    <li>Library and Information Science</li>
+    <li>Teacher Education Science</li>
+</ul>
+
+<!-- Science -->
+<h3  onclick="showDepartment(2)">Science:</h3>
+<ul  class="department-dropdown">
+    <li>Anatomy</li>
+    <li>Biochemistry</li>
+    <li>Biological Science(s)</li>
+    <li>Chemistry</li>
+    <li>Computer Science</li>
+    <li>Environmental Management and Toxicology</li>
+    <li>Geography</li>
+    <li>Industrial Chemistry</li>
+    <li>Mathematics</li>
+    <li>Microbiology</li>
+    <li>Physics</li>
+    <li>Plant Science and Biotechnology</li>
+    <li>Statistics</li>
+    <li>Zoology</li>
+</ul>
+
+<!-- Social Sciences -->
+<h3  onclick="showDepartment(3)">Social Sciences:</h3>
+<ul class="department-dropdown">
+    <li>Economics</li>
+    <li>Political Science</li>
+    <li>Psychology</li>
+    <li>Sociology</li>
+</ul>
+
+<!-- Law -->
+<h3  onclick="showDepartment(4)">Law:</h3>
+<ul class="department-dropdown">
+    <li>Law</li>
+</ul>
+
+<!-- Management Sciences -->
+<h3  onclick="showDepartment(5)">Management Sciences:</h3>
+<ul class="department-dropdown">
+    <li>Accountancy/Accounting</li>
+    <li>Business Management</li>
+    <li>Finance</li>
+    <li>Marketing</li>
+    <li>Taxation</li>
+</ul>
+
+<!-- Environmental Sciences -->
+<h3  onclick="showDepartment(6)">Environmental Sciences:</h3>
+<ul class="department-dropdown">
+    <li>Urban and Regional Planning</li>
+</ul>
+
+
+<script>
+  function showDepartment(index) {
+    var departments = document.querySelectorAll('.department-dropdown');
+    departments.forEach(function (department, i) {
+      department.style.display = i === index ? 'block' : 'none';
+    });
+  }
+</script>
+
+  
+
+  
+
+
+  <h3>BSU Undergraduate Admission Requirements:</h3>
+
+  <h4>UTME Entry:</h4>
+  <ul>
+    <li>Age requirement: Minimum of 16 years.</li>
+    <li>O'level Result: At least 6 "Cs" grades, including English Language, Mathematics, and three other relevant subjects.</li>
+    <li>JAMB UTME Score: Minimum of 180.</li>
+    <li>BSU Post UTME: Mandatory with a satisfactory performance.</li>
+    <li>One sitting result is accepted.</li>
+  </ul>
+
+  <h4>Direct Entry:</h4>
+  <ul>
+    <li>O'level Result: At least five (5) credits, including English Language and Mathematics, in a single sitting.</li>
+    <li>Age requirement: Minimum of 16 years.</li>
+    <li>Obtain JAMB Direct Entry form.</li>
+    <li>Acceptable certificates: OND, ND, NCE, IJMB, Cambridge A level, BSc, HND, ICAN.</li>
+  </ul>
+
+  <p><em>In summary, BSU offers a broad range of undergraduate programs, and admission can be secured through either UTME or Direct Entry, each with specific criteria. It emphasizes academic excellence, age criteria, correct subject combinations, and meeting stipulated cutoff marks.</em></p>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

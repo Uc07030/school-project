@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+body{
+   
+
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:2px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  background-color: whitesmoke;
+    
+
+
+}
+.image{
+  background-image: url(/image/reseach.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(2px);
+  opacity: .7;
+ 
+}
+.image h2{
+text-align: center;
+color: #f1f1f1f1;
+padding: 20px;
+margin: 10px;
+font-size: x-large;
+font-weight: 800;
+}
+.image .image-txt{
+
+  color: #f1f1f1f1;
+  font-weight: 700;
+  font-size: larger;
+  padding: 20px;
+
+  
+}
+.image .image-txt p{
+
+  z-index: 1;
+
+}
+/* nav bar style */
+.collapse,.nav-collaps, span, .collapse-ul, #navbar-dark{
+    display: none;
+  }
+  .nav-B{
+    display: none;
+    z-index: 1;
+    font-size: larger;
+    font-weight: 700;
+    transition: 2s;
+    text-shadow: 1px 8px 6px  #fff;
+    cursor: pointer;
+   
+  }
+  .nav-A{
+    display: block;
+    
+    font-size: larger;
+    font-weight: 700;
+    z-index: 1;
+    transition: 2s;
+    text-shadow: 1px 8px 6px  #fff;
+    cursor: pointer;
+  }
+  .navbar-nav .nav-item .nav-link{
+    color: #fff;
+  }
+  
+  .navbar {
+    
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px; 
+    background-color:blue;
+    box-shadow: 2px 4px 8px #a8a4a4f1;
+  
+    
+    
+  }
+  
+  
+  .nav-A{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+  }
+  
+  
+  .navbar-toggler-icon img{
+    margin-top: -1rem;
+    border-radius: 50%;
+  }
+.footer{
+    background-color: black;
+    color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  }

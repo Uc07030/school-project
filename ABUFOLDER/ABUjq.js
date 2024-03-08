@@ -1,0 +1,35 @@
+$(document).ready(function(){
+    $("#read").click(function(){
+      $("#abu-histoy").toggle(3000)
+    })
+  })
+$(document).ready(function(){
+    $("#read2").click(function(){
+      $("#abu-histoy2").toggle(3000)
+    })
+  })
+$(document).ready(function(){
+    $("#faculty_togle").click(function(){
+      $("#faculty1").toggle(2000)
+    })
+  })
+$(document).ready(function(){
+    $("#undergraduatebtn").click(function(){
+      $("#undergraduate").toggle(2000)
+    })
+  })
+$(document).ready(function(){
+    $("#read3").click(function(){
+      $("#abu-history3").toggle(2000)
+    })
+  })
+$(document).ready(function(){
+    $("#read5").click(function(){
+      $("#abu-history5").toggle(2000)
+    })
+  })
+$(document).ready(function(){
+    $(".collapsbtn").click(function(){
+      $(".collaps").toggle(2000)
+    })
+  })

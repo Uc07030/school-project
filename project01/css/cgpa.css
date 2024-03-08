@@ -1,0 +1,48 @@
+body{
+background-image:linear-gradient(to right, rgb(215, 67, 141),blue) ;
+   background-image:url(./lib.jpg) ; 
+        
+}
+.table{ 
+    display:none;
+    
+}
+#table td,th{
+   
+    color: aliceblue;
+    border-color: rgb(255, 174, 127);
+
+}
+
+button{
+    background-color: blue;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+   
+}
+.tb{
+    border: 2px solid burlywood;
+}
+#sp{
+    color: aliceblue;
+}
+.clacGpa{
+    position: relative;
+
+}
+#cal{
+     margin-left: 180px;
+ 
+}
+
+th{
+    font-size: x-large;
+}
+button:hover{
+    background-color: greenyellow;
+}
+#notice{
+    color: aqua;
+}

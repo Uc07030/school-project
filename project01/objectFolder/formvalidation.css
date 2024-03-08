@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arvo';
+    font-size: 15px;
+}
+body{
+
+    background-image:url(./lib.jpg);
+    color:white;
+    background-color: black;
+
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 4px, 16px rgba(255, 255, 255, 0.922);
+    transition: 1s;
+}
+span:hover{
+    color: aliceblue;
+    border-bottom: 1px solid aqua;
+    transition: 1s;
+
+}
+.reg input{ 
+    margin: 10px;   
+    padding: 12px;
+    width: 300px;
+   
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    right: 50%;
+    
+
+
+    background-color:rgba(rgb(102, 96, 96), rgb(85, 100,.85), rgb(68, 68, 81), alpha);
+    box-shadow:0px 4px 16px 4px rgba(227, 223, 223, 0.922);
+  
+}
+input{
+   border-radius: 10px; 
+   
+
+}
+#or{
+   text-align: center;
+   margin-left: 10px;
+   color: red;
+   font-size: x-large;
+}
+input[type="button"]{
+    background-color: blue;  
+
+    
+}
+.reg input[type="button"]:hover{
+    background-color: red;
+
+  
+    
+
+}
+.reg{
+    width: 320px;
+   
+}
+.drop-form{
+     display: none; 
+}
+.show{
+    display: block;
+}

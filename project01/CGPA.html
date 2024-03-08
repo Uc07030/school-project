@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/cgpa.css">
+    <script src="cgpA.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <div id="notice">fill in the coorect data  accordinlly!</div>
+    <form action="">
+        <input type="text"placeholder="course codes" value="" class="course">
+
+        <input type="text" value="" id="unit" placeholder="enter courseunit">
+        <select class="courseGrade">
+            <option value="grade">choose grade</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+        </select>
+       
+    </form>
+    <table border="3" class="table"  id="table" >
+        <thead>
+            <tr class="tr">
+                <th>course code</th>
+                <th>course unit</th>
+                <th>grade</th>
+            </tr>
+        </thead>
+        <tbody id="tbody" class="tb">
+            <tfoot id="foot">
+                
+            </tfoot>
+
+        </tbody>
+    </table>
+    <div class="clacGpa">
+        <button class="add">add</button>
+        <button id="cal">calculate Cgpa</button>
+       
+    </div>
+</div>
+</body>
+</html>

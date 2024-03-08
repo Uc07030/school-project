@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <title>UNIABUJA</title>
+    </Head>
+    <body>
+        
+<div class="container mt-4">
+    <h1>Faculties and Departments:</h1>
+
+    <div class="accordion" id="facultiesAccordion">
+
+        <!-- Agriculture -->
+        <div class="card">
+            <div class="card-header" id="agricultureHeading">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#agricultureCollapse" aria-expanded="true" aria-controls="agricultureCollapse">
+                        Agriculture
+                    </button>
+                </h2>
+            </div>
+
+            <div id="agricultureCollapse" class="collapse show" aria-labelledby="agricultureHeading" data-parent="#facultiesAccordion">
+                <div class="card-body">
+                    <ul>
+                        <li>Animal Science</li>
+                        <li>Agricultural Economics</li>
+                        <li>Agricultural Extension</li>
+                        <li>Crop Protection</li>
+                        <li>Crop Science</li>
+                        <li>Soil Science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="card">
+            <div class="card-header" id="educationHeading">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#educationCollapse" aria-expanded="false" aria-controls="educationCollapse">
+                        Education
+                    </button>
+                </h2>
+            </div>
+
+            <div id="educationCollapse" class="collapse" aria-labelledby="educationHeading" data-parent="#facultiesAccordion">
+                <div class="card-body">
+                    <ul>
+                        <li>Arts Education</li>
+                        <li>Counselling & Educational Psychology</li>
+                        <li>Educational Foundation</li>
+                        <li>Educational Management</li>
+                        <li>Library and Information Science</li>
+                        <li>Science and Environmental Education</li>
+                        <li>Social Science Education</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more faculties and departments similarly -->
+        <div class="accordion" id="facultiesAccordion">
+
+            <!-- Engineering -->
+            <div class="card">
+                <div class="card-header" id="engineeringHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#engineeringCollapse" aria-expanded="true" aria-controls="engineeringCollapse">
+                            <strong>Engineering</strong>
+                        </button>
+                    </h2>
+                </div>
+    
+                <div id="engineeringCollapse" class="collapse show" aria-labelledby="engineeringHeading" data-parent="#facultiesAccordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>Chemical Engineering</li>
+                            <li>Civil Engineering</li>
+                            <li>Electrical/Electronic Engineering</li>
+                            <li>Mechanical Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Law -->
+            <div class="card">
+                <div class="card-header" id="lawHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#lawCollapse" aria-expanded="false" aria-controls="lawCollapse">
+                            <strong>Law</strong>
+                        </button>
+                    </h2>
+                </div>
+    
+                <div id="lawCollapse" class="collapse" aria-labelledby="lawHeading" data-parent="#facultiesAccordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>Islamic Law</li>
+                            <li>International Law and Jurisprudence</li>
+                            <li>Private & Property Law</li>
+                            <li>Public Law</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Management Sciences -->
+            <div class="card">
+                <div class="card-header" id="managementSciencesHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#managementSciencesCollapse" aria-expanded="false" aria-controls="managementSciencesCollapse">
+                            <strong>Management Sciences</strong>
+                        </button>
+                    </h2>
+                </div>
+    
+                <div id="managementSciencesCollapse" class="collapse" aria-labelledby="managementSciencesHeading" data-parent="#facultiesAccordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>Accounting</li>
+                            <li>Banking & Finance</li>
+                            <li>Business Administration</li>
+                            <li>Public Administration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sciences -->
+            <div class="card">
+                <div class="card-header" id="sciencesHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#sciencesCollapse" aria-expanded="false" aria-controls="sciencesCollapse">
+                            <strong>Sciences</strong>
+                        </button>
+                    </h2>
+                </div>
+    
+                <div id="sciencesCollapse" class="collapse" aria-labelledby="sciencesHeading" data-parent="#facultiesAccordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>Biological Sciences</li>
+                            <li>Chemistry</li>
+                            <li>Computer Science</li>
+                            <li>Mathematics</li>
+                            <li>Microbiology</li>
+                            <li>Statistics</li>
+                            <li>Physics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Social Sciences -->
+            <div class="card">
+                <div class="card-header" id="socialSciencesHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#socialSciencesCollapse" aria-expanded="false" aria-controls="socialSciencesCollapse">
+                            <strong>Social Sciences</strong>
+                        </button>
+                    </h2>
+                </div>
+    
+                <div id="socialSciencesCollapse" class="collapse" aria-labelledby="socialSciencesHeading" data-parent="#facultiesAccordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>Economics</li>
+                            <li>Geography and Environmental Management</li>
+                            <li>Political Science & International Relations</li>
+                            <li>Sociology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Veterinary Medicine -->
+            <div class="card">
+                <div class="card-header" id="veterinaryMedicineHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#veterinaryMedicineCollapse" aria-expanded="false" aria-controls="veterinaryMedicineCollapse">
+                            <strong>Veterinary Medicine</strong>
+                        </button>
+                    </h2>
+                </div>
+    
+                <div id="veterinaryMedicineCollapse" class="collapse" aria-labelledby="veterinaryMedicineHeading" data-parent="#facultiesAccordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>Veterinary Anatomy</li>
+                            <li>Veterinary Animal Health and Production</li>
+                            <li>Veterinary Microbiology</li>
+                            <li>Veterinary Parasitology and Entomology</li>
+                            <li>Veterinary Pathology</li>
+                            <li>Veterinary Physiology and Biochemistry</li>
+                            <li>Veterinary Medicine</li>
+                            <li>Veterinary Public Health</li>
+                            <li>Veterinary Surgery</li>
+                            <li>Theriogenology</li>
+                            <li>Veterinary Pharmacology and Toxicology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    </div>
+
+
+    
+            
+            <div class="container mt-4">
+                <h4>UNIABUJA Courses and JAMB Subject Combination</h4>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Course</th>
+                            <th>JAMB Subject Combination</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Accounting</td>
+                            <td>English, Maths, Econs, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Agricultural Science and Education</td>
+                            <td>English, Biology, Chemistry, Maths</td>
+                        </tr>
+                        <tr>
+                            <td>Agriculture</td>
+                            <td>English, Biology, Chemistry, Maths</td>
+                        </tr>
+                        <tr>
+                            <td>Anatomy</td>
+                            <td>English, Biology, Chemistry, Physic</td>
+                        </tr>
+                        <tr>
+                            <td>Arabic Studies</td>
+                            <td>English, Arabic, Literature, Govt</td>
+                        </tr>
+                        <!-- Continue adding rows for each course -->
+                        <tr>
+                            <td>Biology</td>
+                            <td>English, Biology, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Botany</td>
+                            <td>English, Biology, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Business Administration</td>
+                            <td>English, Maths, Govt, Econs</td>
+                        </tr>
+                        <tr>
+                            <td>Chemical Engineering</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Chemistry</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Christian Religious Knowledge / Studies</td>
+                            <td>English, Literature, Govt, CRK</td>
+                        </tr>
+                        <tr>
+                            <td>Christian Religious Studies (CRS)</td>
+                            <td>English, Literature, CRK, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Civil Engineering</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Computer Science</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Drama / Dramatic / Performing Arts</td>
+                            <td>English, Literature, CRK, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Economics</td>
+                            <td>English, Econs, Maths, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Arabic</td>
+                            <td>English, Arabic, Literature, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Biology</td>
+                            <td>English, Biology, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Botany</td>
+                            <td>English, Biology, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Business Administration</td>
+                            <td>English, Maths, Govt, Econs</td>
+                        </tr>
+                        <tr>
+                            <td>Chemical Engineering</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Chemistry</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Christian Religious Knowledge / Studies</td>
+                            <td>English, Literature, Govt, CRK</td>
+                        </tr>
+                        <tr>
+                            <td>Christian Religious Studies (CRS)</td>
+                            <td>English, Literature, CRK, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Civil Engineering</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Computer Science</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Drama / Dramatic / Performing Arts</td>
+                            <td>English, Literature, CRK, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Economics</td>
+                            <td>English, Econs, Maths, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Arabic</td>
+                            <td>English, Arabic, Literature, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Biology</td>
+                            <td>English, Biology, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Chemistry</td>
+                            <td>English, Chemistry, Physics, Maths</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Christian Religious Studies</td>
+                            <td>English, CRK, Literature, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Economics</td>
+                            <td>English, Econs, Maths, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Education and English Language</td>
+                            <td>English, CRK, Literature, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Education and English Language and Literature</td>
+                            <td>English, CRK, Literature, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Geography</td>
+                            <td>English, Geography, Econs, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Education and History</td>
+                            <td>English, History, Govt, CRK</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Integrated Science</td>
+                            <td>English, Biology, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Islamic Studies</td>
+                            <td>English, Islamic, Govt, Literature</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Mathematics</td>
+                            <td>English, Chemistry, Physics, Maths</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Physics</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Education and Social Studies</td>
+                            <td>English, Econs, CRK, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Educational Management and Planning</td>
+                            <td>English, Maths, Econ, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Electrical Engineering</td>
+                            <td>English, Chemistry, Physics, Maths</td>
+                        </tr>
+                        <tr>
+                            <td>English and Literary Studies</td>
+                            <td>English, Literature, Govt, CRK</td>
+                        </tr>
+                        <tr>
+                            <td>Environmental Education</td>
+                            <td>English, Geography, Physics, Maths</td>
+                        </tr>
+                        <tr>
+                            <td>Geography</td>
+                            <td>English, Geography, Physics, Maths</td>
+                        </tr>
+                        <tr>
+                            <td>Guidance and Counseling</td>
+                            <td>English, Biology, Chemistry, Maths</td>
+                        </tr>
+                        <tr>
+                            <td>History</td>
+                            <td>English, History, Govt, Literature</td>
+                        </tr>
+                        <tr>
+                            <td>Islamic Studies</td>
+                            <td>English, Islamic, Literature, Govt</td>
+                        </tr>
+                        <tr>
+                            <td>Linguistics</td>
+                            <td>English, Literature, Govt, CRK</td>
+                        </tr>
+                        <tr>
+                            <td>Mathematics</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Mechanical Engineering</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Medicine and Surgery</td>
+                            <td>English, Biology, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Microbiology</td>
+                            <td>English, Biology, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Philosophy</td>
+                            <td>English, CRK, Govt, Literature</td>
+                        </tr>
+                        <tr>
+                            <td>Political Science and International Relations</td>
+                            <td>English, CRK, Govt, Literature</td>
+                        </tr>
+                        <tr>
+                            <td>Primary Education Studies</td>
+                            <td>English, CRK, Govt, Literature</td>
+                        </tr>
+                        <tr>
+                            <td>Public Administration</td>
+                            <td>English, CRK, Govt, Econs</td>
+                        </tr>
+                        <tr>
+                            <td>Sociology</td>
+                            <td>English, CRK, Govt, Econs</td>
+                        </tr>
+                        <tr>
+                            <td>Statistics</td>
+                            <td>English, Maths, Chemistry, Physics</td>
+                        </tr>
+                        <tr>
+                            <td>Veterinary Medicine</td>
+                            <td>English, Biology, Chemistry, Physics</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        
+           
+   
+            <div class="container mt-4">
+                <!-- University Links -->
+                <div>
+                    <p>
+                        What you need to know about:
+                        List of Federal Universities in Nigeria <a href="#">Click Here</a>
+                        <br><br>
+                        State Universities in Nigeria <a href="#">Click Here</a><br><br>
+                        Private Universities in Nigeria <a href="#">Click Here</a>
+                        <br><br>
+                        <a href="#">* School of Remedial Studies</a>
+                    </p>
+                </div>
+                
+                <!-- University of Abuja School Fees -->
+                <div>
+                    <h4>University of Abuja school fees</h4>
+                    <p>
+                        UNIABUJA School Fees Schedule for Nigerians.<br><br>
+                        Many Nigerians are drawn to the University of Abuja because it has some of the least expensive degree,
+                        diploma, and postgraduate programmes in the nation. When applying for admission, it’s crucial to know how
+                        much you must spend in tuition. Note to Mobile users: Scroll to the side to view all the contents in the
+                        table below:
+                    </p>
+        
+                    <!-- Undergraduate School Fees Table for Nigerians -->
+                   
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>New Entrants (100 Level & Direct Entry)</th>
+                        <th>Returning Students (200 Levels to Final Year)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arts (Theatre Arts/English/Linguistics)</td>
+                        <td>₦47,300</td>
+                        <td>₦28,800</td>
+                    </tr>
+            
+                    <!-- Continue adding rows for each category -->
+            
+                    <tr>
+                        <td>Other Arts</td>
+                        <td>₦45,300</td>
+                        <td>₦26,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Agriculture</td>
+                        <td>₦49,300</td>
+                        <td>₦30,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Health Sciences</td>
+                        <td>₦52,300</td>
+                        <td>₦33,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Education (Biology/Geography)</td>
+                        <td>₦47,300</td>
+                        <td>₦28,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Education (Other Educ. Dept.)</td>
+                        <td>₦45,300</td>
+                        <td>₦26,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Education (Biology/Geography) 300 level only</td>
+                        <td>---</td>
+                        <td>₦30,300</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Education (Other Educ. Dept.) 300 level only</td>
+                        <td>---</td>
+                        <td>₦28,300</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Engineering</td>
+                        <td>₦49,300</td>
+                        <td>₦30,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Law</td>
+                        <td>₦45,300</td>
+                        <td>₦26,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Management Science</td>
+                        <td>₦47,300</td>
+                        <td>₦28,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Science (Biology/Microbiology)</td>
+                        <td>₦49,300</td>
+                        <td>₦30,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Other Science</td>
+                        <td>₦47,300</td>
+                        <td>₦28,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Social Sciences (Geography)</td>
+                        <td>₦49,300</td>
+                        <td>₦30,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Other Social Sciences</td>
+                        <td>₦47,300</td>
+                        <td>₦28,800</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Veterinary Medicine</td>
+                        <td>₦49,300</td>
+                        <td>₦30,800</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+           
+            
+            <p>
+                INEC Result Portal Login – How to Login to INEC IReV Portal 2023 –:
+                <br><br>
+                <a href="https://www.inecelectionresults.ng">Click Here</a>
+            </p>
+            
+            <p>
+                INEC Result Viewing portal (IReV) – How to view election results live –:
+                <a href="https://www.inecelectionresults.ng">Click Here</a>
+            </p>
+            
+            <p>
+                INEC Result Portal Login – How to Login to INEC IReV Portal 2023 –:
+                <a href="https://www.inecelectionresults.ng">Click Here</a>
+            </p>
+            
+           
+            <div><p>
+            See also  JAMB Reprinting slip:printexamslip 2023/2024<br><br>
+            •	Distance Learning School<br><br>
+            Abuja University also consists of distance learning School, which means student can run their academic programmes from home. This allows students, who are financially unable to sponsor normal campus life, to have their lectures right in their comfort rooms via online platforms, Audio-visual materials such as CD, Drive drives and DVDs.
+            <br><br>
+            <a href=”www.uniabuja.edu.ng”>uniabuja website</a> and confirm the current fee schedule.
+            <br><br>
+            To get the current UNIABUJA School Fees 2023/2024 updates, just drop your comments and tell us what issues you’re having and we will respond to you promptly.
+            
+            
+            </p><div>
+            
+            
+            
+            
+            
+                                 
+            
+                <!-- Bootstrap JS and Popper.js Scripts -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+            
+                
+    </body>
+</html>

@@ -1,0 +1,8 @@
+<!
+
+
+    <!-- Add Bootstrap JS and Popper.js links here -->
+    <script src="path/to/popper.js"></script>
+    <script src="path/to/bootstrap.js"></script>
+    <!-- Add your custom JavaScript links here -->
+put  this write up in the appropraite HTML tags and boottraps for it responsiveness

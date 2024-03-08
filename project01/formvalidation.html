@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formvalidation.css">
+    
+    <script src=https://kit.fontawesome.com/84cdac7d72.js crossorigin=”anonymous”></script>
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <i class="fa-solid fa-bars"></i>
+        <span>contact us </span>
+        <span>About us</span>
+        <span>Home</span>
+        <span class="drop" >sign up</span>
+        <span>sign in</span>
+    </div>
+    <form action="" class="drop-form" id="form">
+        <div class="reg" class="formDrop" >
+        <input type="text" placeholder="first Name.."  value="" id="name">
+        <input type="text" placeholder="first last Name.." value="" id="lastname">
+        <input type="text" placeholder="Email eg Uc@gmail.com" value=""id="email">
+        <input type="password" placeholder="password.." value=""id="pass">
+        <input type="password" placeholder="confirm password.." value=""id="passcomfirm">
+        <input type="button" value="Register" id="register">
+        <div id="or">Or</div>
+        <input type="button" value="Log in">
+    </div>
+    </form>
+    <script src="formvalidation.js"></script>
+</body>
+</html>

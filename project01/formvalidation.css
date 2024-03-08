@@ -1,0 +1,26 @@
+body{
+    background-image: url(./css/lib.jpg);
+color:white;
+}
+.drop-form{
+    display: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    background-color: black;
+    border-radius: 10%;
+    transition: 1s;
+cursor: pointer;
+}
+span:hover
+{
+    background-color: aqua;
+    border-bottom: 2px solid;
+
+}
+.show{
+    display: block;
+}

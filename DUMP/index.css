@@ -1,0 +1,18 @@
+.DI{
+position:relative;
+top: 0;
+display: flex;
+margin-right: 20px;
+background: blue;
+padding: 20px;
+border-radius: 20px;
+
+}
+.up{
+	position: relative;
+	display: flex;
+margin-right: 20px
+
+
+
+}
